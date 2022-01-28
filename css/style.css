@@ -115,4 +115,20 @@ footer div img {
     section {
         flex-direction: column;
     }
+    .img {
+        width: 100%;
+    }
+    .info {
+        width: 100%;
+    }
+    .logo {
+        width: 180px;
+    }
+}
+
+@media (max-width: 360px){
+    .logo {
+        width: 800px;
+        height: 800px;
+    }
 }
